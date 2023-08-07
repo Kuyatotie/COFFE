@@ -65,7 +65,7 @@ nav ul li a {
 nav ul li a:after {
     content: '';
     width: 0;
-    height: 3px;
+    height: 30px;
     background: crimson;
     position: absolute;
     bottom: -6px;
@@ -204,7 +204,7 @@ form input, textarea {
 
 
 /* -------------SMALLSCREEN---------------------------- */
-@media  only screen and (max-width:300px) {
+@media  only screen and (max-width:1080px) {
 
     #header-text {
     
@@ -244,15 +244,15 @@ form input, textarea {
     nav ul li {
         display: inline-block;
         list-style: none;
-        margin: 15px 3px;
+        margin: 3px 3px;
     }
     
     nav ul li a {
         color: #ffff;
         text-decoration: none;
-        font-size: 15px;
+        font-size: 20px;
         position: relative;
-        font-weight: 900;
+        font-weight: 300;
     }
     nav ul li a:after {
         content: '';

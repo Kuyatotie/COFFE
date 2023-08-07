@@ -235,7 +235,7 @@ form input, textarea {
     }
     nav {
         z-index: 999;
-        margin: 5px auto;
+        margin: 3px 10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -244,15 +244,17 @@ form input, textarea {
     nav ul li {
         display: inline-block;
         list-style: none;
-        margin: 3px 3px;
+        margin-top: 2px;
+        margin-left: 1px;
+        
     }
     
     nav ul li a {
         color: #ffff;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 12px;
         position: relative;
-        font-weight: 300;
+        font-weight: 900;
     }
     nav ul li a:after {
         content: '';
@@ -288,30 +290,20 @@ form input, textarea {
     
 
 
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    nav ul li {
-        display: inline-block;
-        list-style: none;
-        margin: 10px 20px;
-    }
-    
+   
     .contact-left {
         
         position: absolute;
         flex-basis: 35%;
-        font-size: 20px;
-        margin-top: 35%;
+        font-size: 15px;
+        margin-top: 120%;
         
     }
     
     
     
     .contact-left a{
+        font-size: 15px;
         margin-top: 10px;
         display: flex;
         text-decoration: none;
@@ -331,22 +323,25 @@ form input, textarea {
         transform: translateY( -5px);
     }
     
-    .social-icon {
-        margin-top: 5px;
+    .social-icon a {
+        display: flex;
+        display: inline-block;
+        margin-top: 2px;
     
     }
-    .social-icon a {
+    .social-icon a i {
+
         text-decoration: none;
         font-size: 30px;
-        margin-right: 15px;
+        margin-right: 3px;
         color: #ffff;
         display: inline-block;
         transition: transform 0.5s;
     }
-    .social-icon a:hover {
+    .social-icon a i:hover {
         
         transform: translateY( -5px);
-        color: #ffff;
+        color:crimson;
     
     
     }
@@ -354,12 +349,14 @@ form input, textarea {
     
     
     .contact-right {
-        margin-left: 45%;
-        margin-top: 30%;
+        margin-left: 0;
+      left: 0;
+        margin-top: 5%;
     
     }
     .contact-right form {
         width: 100%;
+      
     }
     form input, textarea {
         width: 95%;

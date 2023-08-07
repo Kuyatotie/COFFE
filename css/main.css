@@ -65,7 +65,7 @@ nav ul li a {
 nav ul li a:after {
     content: '';
     width: 0;
-    height: 30px;
+    height: 3px;
     background: crimson;
     position: absolute;
     bottom: -6px;
@@ -204,7 +204,7 @@ form input, textarea {
 
 
 /* -------------SMALLSCREEN---------------------------- */
-@media  only screen and (max-width:1080px) {
+@media  only screen and (max-width:1400px) {
 
     #header-text {
     
@@ -292,11 +292,11 @@ form input, textarea {
 
    
     .contact-left {
-        
-        position: absolute;
+        flex-basis: 100%;
+        position:sticky;
         flex-basis: 35%;
         font-size: 15px;
-        margin-top: 120%;
+        
         
     }
     

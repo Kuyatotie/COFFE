@@ -177,7 +177,11 @@ nav ul li {
 
 }
 
-
+#msg {
+    color: crimson;
+    display: block;
+    font-size: 5px;
+}
 
 .contact-right {
     margin-left: 35%;
